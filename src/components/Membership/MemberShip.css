@@ -1,0 +1,127 @@
+.membership-container {
+  background-image: url("../../assets/bg3.png");
+  background-size: cover;
+  background-position: end;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 450px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 60px 7%;
+  position: relative;
+}
+
+.membership-content {
+  width: 100%;
+  max-width: 470px;
+  background: #ffffff;
+  padding: 48px 42px;
+  border-radius: 38px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+  font-family: "Inter", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.membership-content i {
+  font-size: 1rem;
+  color: #1d2235;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 14px;
+  display: block;
+}
+
+.membership-content h2 {
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: #1d2235;
+  line-height: 1;
+  margin-bottom: 24px;
+  letter-spacing: -1px;
+}
+
+.membership-content h5 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #6a6f7c;
+  line-height: 1.7;
+  margin-bottom: 28px;
+  max-width: 380px;
+}
+
+.membership-button {
+  background: #5b0b06;
+  color: #ffffff;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.membership-button:hover {
+  transform: translateY(-2px);
+  background: #420804;
+}
+
+.membership-button i {
+  font-size: 22px;
+  color: #ffffff;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  .membership-container {
+    justify-content: center;
+    padding: 50px 20px;
+  }
+
+  .membership-content {
+    max-width: 430px;
+    padding: 40px 32px;
+  }
+
+  .membership-content h2 {
+    font-size: 2.7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .membership-container {
+    min-height: auto;
+    padding: 70px 16px;
+    background-position: left;
+  }
+
+  .membership-content {
+    max-width: 100%;
+    border-radius: 28px;
+    padding: 34px 24px;
+  }
+
+  .membership-content i {
+    font-size: 0.95rem;
+  }
+
+  .membership-content h2 {
+    font-size: 2.2rem;
+    margin-bottom: 18px;
+  }
+
+  .membership-content h5 {
+    font-size: 0.98rem;
+    line-height: 1.6;
+  }
+
+  .membership-button {
+    width: 100%;
+    justify-content: center;
+    padding: 14px 18px;
+  }
+}

@@ -1,0 +1,64 @@
+.menu-container {
+  background-image: url("../../assets/bg1.png");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 8%;
+}
+
+.menu-content {
+  font-family: Arial, sans-serif;
+  font-style: bold;
+  background-color: #ffffff;
+  padding: 3rem;
+  max-width: 500px;
+  border-radius: 60px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.menu-content i {
+  font-size: 1.4rem;
+  color: #333;
+  display: block;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+.menu-content h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #1a1e2c;
+  line-height: 0.9;
+  margin-bottom: 1.5rem;
+}
+
+.menu-content h5 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #555;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .menu-container {
+    justify-content: center;
+    padding-right: 0;
+    height: auto;
+    padding: 50px 20px;
+  }
+
+  .menu-content {
+    border-radius: 40px;
+    padding: 2rem;
+  }
+
+  .menu-content h2 {
+    font-size: 2.2rem;
+  }
+}
